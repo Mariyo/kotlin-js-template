@@ -13,7 +13,7 @@ repositories {
 }
 
 kotlin {
-    js {
+    js(IR) {
         browser {
             commonWebpackConfig {
                 cssSupport {
