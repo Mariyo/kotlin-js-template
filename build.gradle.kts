@@ -30,6 +30,7 @@ kotlin {
         val jsMain by getting {
             dependencies {
                 implementation(npm("react", "v19.1.1"))
+                implementation(npm("react-dom", "v19.1.1"))
             }
         }
     }
